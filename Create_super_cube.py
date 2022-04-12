@@ -19,7 +19,7 @@ first_player=0
 player = players.get_players()
 # fld="75028E138C4733B6C4DFE9964AE0F125"
 
-base_url = "http://10.23.9.159:8080/MicroStrategyLibrary/api"
+base_url = "http://<>/MicroStrategyLibrary/api"
 username = "administrator"
 password = ""
 connection = Connection(base_url, username, password, project_name="MicroStrategy Tutorial",
